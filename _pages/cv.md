@@ -9,56 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 🎓 Education (教育背景)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+*   **National University of Singapore (NUS)**
+    *   Master of Science in Energy Systems
+    *   2023 - 2024
+    *   *Focus: Renewable Energy, Energy Systems*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+*   **Shanghai Jiao Tong University (SJTU)**
+    *   Bachelor of Engineering in Biomedical Engineering
+    *   2018 - 2022
+    *   *Note: Transferred to **Smart Energy Innovation Institute** in 2022 for senior training (Focus: New Energy + AI)*
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 💼 Work Experience (工作经历)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+*   **Machine Learning Engineer** | **GCL Group (协鑫集团)**
+    *   2025 - Present
+    *   **Responsibilities**:
+        *   **Energy Optimization**: Designed and implemented optimization scheduling strategies for Virtual Power Plants (VPP) and source-grid-load-storage systems.
+        *   **Time Series Prediction**: Developed high-precision models for power load forecasting and renewable energy (PV/Wind) generation prediction.
+        *   **AI Applications**: Led the development of "ChatData" (LLM-based data analysis platform) and smart meeting assistants.
+
+## 🔬 Research Experience (科研经历)
+
+*   **Research Assistant** | **SJTU Smart Energy Innovation Institute (Liu Zuming Group)**
+    *   2021 - 2024
+    *   **Focus**: Photovoltaic power time series prediction using deep learning and spatiotemporal analysis.
+    *   **Achievements**: Published research in *Energy and AI* and multiple international conferences.
+
+## 🛠️ Skills (技能专长)
+
+*   **Programming & Tools**: Python, PyTorch, TensorFlow, SQL, Git.
+*   **Core Competencies**: Machine Learning, Deep Learning, Time Series Forecasting, Mathematical Optimization, Large Language Models (LLM), Energy System Modeling.
+
+## 📝 Publications (发表论文)
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
