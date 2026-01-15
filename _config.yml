@@ -23,7 +23,7 @@ repository               : "2308087369/2308087369.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Bo Chen 陈波"
   pronouns         : # example: "she/her"  
   bio              : "机器学习工程师"

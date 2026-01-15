@@ -1,56 +1,90 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "关于我 (About Me)"
+excerpt: "Bo Chen's Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+👋 你好！我是 **陈波 (Bo Chen)**。
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+目前，我担任 **协鑫集团 (GCL Group)** 子公司的 **机器学习工程师**。我的主要工作聚焦于 **AI + 能源** 领域，致力于通过人工智能技术解决复杂的能源调度与优化问题，并探索大模型在垂类场景中的落地应用。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 💼 工作经历 (Work Experience)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+### 2025 - 至今 | 机器学习工程师 | 协鑫集团子公司
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+在协鑫集团，我深度参与了能源数字化与智能化的核心项目，主要职责与成果包括：
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+*   **⚡ 能源优化调度算法**：
+    *   设计并落地了针对源网荷储协同的优化调度策略，提升了系统的经济性与稳定性。
+    *   开发了 **虚拟电厂 (VPP)** 相关的调度算法，实现对分布式能源的高效聚合与响应。
+*   **📈 时间序列预测**：
+    *   研发了高精度的 **电力负荷预测** 模型，支持短期与超短期调度需求。
+    *   实现了 **新能源发电功率预测**（光伏、风电），有效降低了新能源波动对电网的冲击。
+*   **🤖 AI 应用开发**：
+    *   **ChatData 平台**：主导开发了基于大模型的智能数据交互平台，支持自然语言查询与分析业务数据。
+    *   **智能会议助手**：开发会议语音识别与纪要生成工具，提升团队协作效率。
+    *   **数据分析工具**：构建自动化数据分析流水线，挖掘能源数据的深层价值。
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+> 📄 **详细简历**：关于我 2024 年及以前的详细项目经历与教育背景，欢迎查阅我的 [📄 个人简历 (PDF)](/files/简历-陈波-2024.pdf)。
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 🎓 教育背景 (Education)
 
-**Markdown generator**
+*   **2023 - 2024** | **新加坡国立大学 (National University of Singapore)**
+    *   硕士 (Master of Science) | 能源系统 (Energy Systems)
+    *   主修方向：可再生能源、能源系统 (Renewable Energy, Energy Systems)
+*   **2018 - 2022** | **上海交通大学 (Shanghai Jiao Tong University)**
+    *   学士 (Bachelor of Engineering) | 生物医学工程 (Biomedical Engineering)
+    *   *注：2022 年转入 **智慧能源创新学院 (College of Smart Energy)** 进行本科高年级转向培养，主修 **新能源 + AI** 方向。*
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## 🔬 科研经历 (Research Experience)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 2021 - 2024 | 光伏发电功率时间序列预测研究 | 上海交通大学智慧能源创新学院 (刘祖明课题组)
+在此期间，我专注于光伏发电功率的高精度预测算法研究，主要成果包括：
+*   提出了一种新型的时空关系融合网络 (Spatiotemporal Relation Fused Network)，显著提升了光伏功率预测的准确性。
+*   研究成果发表于能源与AI领域知名期刊 **《Energy and AI》**。
+*   **大论文题目**：*A novel spatiotemporal relation fused network for solar photovoltaic power forecasting*。
+*   多次参与国际会议（EPEE, IET 等），进行口头报告或发表会议论文。
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## 📜 学术成果 (Publications)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+1.  **A novel spatiotemporal relation fused network for solar photovoltaic power forecasting**
+    *   Z Liu, S Li, J Ding, Y Zheng, **B Chen**, Y He
+    *   *Energy and AI*, 100676, **2026**
+2.  **A novel spatiotemporal relation fused network for solar photovoltaic power prediction**
+    *   L Tang, **B Chen**, Z Liu
+    *   *IET Conference Proceedings CP934*, 2025 (26), 107-111, **2025**
+3.  **High-resolution Photovoltaic Power Prediction based on Dynamic Time Constants Residual Recurrent Neural Network**
+    *   **B Chen**, H Jiang, Y Sheng
+    *   *2024 4th International Conference on Energy, Power and Electrical Engineering (EPEE)*, **2024**
+4.  **Optimal Transition Pathway of Power Systems for Guangdong-Hongkong-Macau Region in China**
+    *   Y Zhao, L Tang, **B Chen**, Z Liu
+    *   *Energy*, 2965, **2024**
+
+## 💻 开源项目与技术博客 (Open Source & Blog)
+
+我热衷于技术分享与开源社区，以下是我的部分精选项目与文章：
+
+### 🛠️ 精选开源项目 (GitHub)
+*   **[Virtual-power-plants (虚拟电厂调度优化系统)](https://github.com/2308087369/Virtual-power-plants)**
+    *   一个专注于虚拟电厂优化调度的开源项目。
+    *   **核心功能**：包含负荷、光伏、风电数据的生成模块，以及基于优化算法的系统调度求解器。
+    *   **技术栈**：Python, Optimization Modeling, Data Generation.
+
+### 📝 技术博客 (CSDN)
+我的 CSDN 博客 (**[qq_43743777](https://blog.csdn.net/qq_43743777)**) 主要涵盖以下主题：
+*   **强化学习与优化 (RL & Optimization)**：探讨 [优化问题转强化学习 (OPT-TO-RL)](https://blog.csdn.net/qq_43743777/article/details/144215885) 等前沿技术。
+*   **虚拟电厂技术**：分享 [虚拟电厂调度优化系统](https://blog.csdn.net/qq_43743777/article/details/150917052) 的设计与实现细节。
+*   **Prompt Engineering**：关于 [Prompt 工程架构](https://blog.csdn.net/qq_43743777/article/details/143059366) 的思考与实践。
+
+## 🌐 社交链接 (Social Links)
+*   **GitHub**: [github.com/2308087369](https://github.com/2308087369)
+*   **CSDN**: [blog.csdn.net/qq_43743777](https://blog.csdn.net/qq_43743777)
+*   **知乎**: [Bo Chen](https://www.zhihu.com/people/bo-34-2)
+
+## 📧 联系我 (Contact)
+如果你对能源 AI、虚拟电厂或大模型应用感兴趣，欢迎通过邮件与我交流！
+*   Email: [bo_chen@u.nus.edu](mailto:bo_chen@u.nus.edu)
