@@ -14,5 +14,8 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "OpenProject"
+    url: /open-projects/
+
   - title: "CV"
     url: /cv/
